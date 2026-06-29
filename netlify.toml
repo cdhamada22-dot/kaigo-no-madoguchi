@@ -1,0 +1,20 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "http://www.kaigo-no-madoguchi.com/*"
+  to = "https://kaigo-no-madoguchi.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://kaigo-no-madoguchi.com/*"
+  to = "https://kaigo-no-madoguchi.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.kaigo-no-madoguchi.com/*"
+  to = "https://kaigo-no-madoguchi.com/:splat"
+  status = 301
+  force = true

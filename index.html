@@ -98,7 +98,9 @@
             <h2 id="form-title">ご希望の施設を無料でお探しします</h2>
             <p>専門相談員があなたにぴったりの施設をご提案</p>
           </div>
-          <form class="step-form" novalidate>
+          <form class="step-form" name="contact" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="contact">
+            <input type="hidden" name="bot-field" style="display:none">
             <div class="steps" aria-label="入力ステップ">
               <span class="step-dot active" data-step-label="地域">1</span>
               <span class="step-line active"></span>

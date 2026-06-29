@@ -88,9 +88,21 @@ form.addEventListener("submit", (event) => {
   }
 
   const userName = form.name.value.trim();
-  successMessage.textContent = `${userName}様、ありがとうございます。相談内容を受け付けました。担当者よりご連絡いたします。`;
-  form.reset();
-  setTimeout(() => setStep(0), 2600);
+  const formData = new FormData(form);
+
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => {
+      successMessage.textContent = `${userName}様、ありがとうございます。相談内容を受け付けました。担当者よりご連絡いたします。`;
+      form.reset();
+      setTimeout(() => setStep(0), 2600);
+    })
+    .catch(() => {
+      errorMessage.textContent = "送信に失敗しました。お電話にてお問い合わせください。";
+    });
 });
 
 setStep(0);

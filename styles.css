@@ -917,6 +917,87 @@ textarea:focus {
   margin-top: 30px;
 }
 
+.policy-page {
+  background:
+    radial-gradient(circle at 10% 8%, rgba(255, 215, 93, .18), transparent 24%),
+    radial-gradient(circle at 92% 18%, rgba(67, 199, 239, .14), transparent 24%),
+    #fffdf7;
+}
+
+.policy-main {
+  padding: 72px 7vw 96px;
+}
+
+.policy-shell {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  padding: clamp(32px, 5vw, 62px);
+  background: rgba(255, 255, 255, .96);
+  border: 2px solid #ffe7b7;
+  border-radius: 8px;
+  box-shadow: 0 18px 0 rgba(255, 215, 93, .2), 0 30px 60px rgba(40, 55, 70, .1);
+}
+
+.policy-label {
+  margin: 0 0 10px;
+  color: var(--orange-dark);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.policy-shell h1 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.35;
+}
+
+.policy-lead {
+  margin: 22px 0 0;
+  color: #48525d;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.policy-shell section {
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.policy-shell h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+  line-height: 1.45;
+}
+
+.policy-shell p,
+.policy-shell li {
+  color: #56626e;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.policy-shell p {
+  margin: 0;
+}
+
+.policy-shell p + p {
+  margin-top: 12px;
+}
+
+.policy-shell ul {
+  margin: 12px 0 0;
+  padding-left: 1.2em;
+}
+
+.policy-date {
+  margin-top: 36px;
+  color: #7b8792;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   .site-header {
     grid-template-columns: 1fr auto;
@@ -1097,5 +1178,13 @@ textarea:focus {
 
   .summary-list {
     grid-template-columns: 1fr;
+  }
+
+  .policy-main {
+    padding: 46px 20px 72px;
+  }
+
+  .policy-shell {
+    padding: 30px 22px;
   }
 }

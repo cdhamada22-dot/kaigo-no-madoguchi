@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" preserveAspectRatio="none">
+  <rect width="760" height="220" fill="none"/>
+  <g opacity=".9">
+    <path d="M0 184h760v36H0Z" fill="#9bdc5c"/>
+    <path d="M0 170 24 154l24 16v50H0Zm66-28h48v78H66Zm76 26 34-24 34 24v52h-68Zm92-64h44v116h-44Zm68 42h74v74h-74Zm98 22 26-18 26 18v52h-52Zm80-40h58v92h-58Zm84 30h36v62h-36Zm58-44h48v106h-48Zm78 54 28-20 28 20v52h-56Z" fill="#78c943"/>
+    <path d="M76 154h8v9h-8Zm18 0h8v9h-8Zm-12 18h8v9h-8Zm166-48h9v12h-9Zm17 0h9v12h-9Zm-17 24h9v12h-9Zm17 24h9v12h-9Zm62-10h10v10h-10Zm20 0h10v10h-10Zm0 22h10v10h-10Zm152-22h10v10h-10Zm19 0h10v10h-10Zm19 0h10v10h-10Zm104-28h9v12h-9Zm18 0h9v12h-9Zm-18 24h9v12h-9Zm18 24h9v12h-9Z" fill="#fff"/>
+    <path d="M18 184c0-13 8-23 19-23s19 10 19 23Zm492 0c0-13 8-23 19-23s19 10 19 23Zm210 0c0-13 8-23 19-23s19 10 19 23Z" fill="#78c943"/>
+    <path d="M36 184v36m493-36v36m210-36v36" stroke="#78c943" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WV7FBTG5');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>お問い合わせ完了 | かいごの窓口</title>
+    <meta name="description" content="かいごの窓口へのお問い合わせが完了しました。">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="thanks-page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV7FBTG5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="lp-header">
+      <a class="brand" href="./index.html" aria-label="かいごの窓口">
+        <img src="../assets/kaigo-logo.png" alt="介護の窓口">
+      </a>
+      <a class="header-cta" href="./index.html#contact">お問い合わせ</a>
+    </header>
+
+    <main class="thanks-main">
+      <section class="thanks-shell" aria-labelledby="thanks-title">
+        <div class="thanks-icon" aria-hidden="true">✓</div>
+        <p class="thanks-label">送信完了</p>
+        <h1 id="thanks-title">お問い合わせ完了しました</h1>
+        <p class="thanks-lead">担当者からご連絡させていただきます。</p>
+
+        <div class="thanks-summary">
+          <h2>お問い合わせ内容</h2>
+          <dl>
+            <div><dt>入居希望者の年齢</dt><dd data-summary="resident_age">-</dd></div>
+            <div><dt>介護度</dt><dd data-summary="care_level">-</dd></div>
+            <div><dt>費用</dt><dd data-summary="budget">-</dd></div>
+            <div><dt>希望エリア</dt><dd data-summary="area">-</dd></div>
+            <div><dt>入居希望時期</dt><dd data-summary="timing">-</dd></div>
+            <div><dt>氏名</dt><dd data-summary="name">-</dd></div>
+            <div><dt>お電話番号</dt><dd data-summary="tel">-</dd></div>
+            <div><dt>メールアドレス</dt><dd data-summary="email">-</dd></div>
+            <div><dt>お問い合わせ種別</dt><dd data-summary="inquiry_type">-</dd></div>
+          </dl>
+        </div>
+
+        <a class="primary-button thanks-button" href="./index.html">トップへ戻る</a>
+      </section>
+    </main>
+
+    <script>
+      const savedPayload = sessionStorage.getItem("kaigoThanksPayload");
+      const payload = savedPayload ? JSON.parse(savedPayload) : {};
+
+      document.querySelectorAll("[data-summary]").forEach((item) => {
+        const key = item.dataset.summary;
+        item.textContent = payload[key] || "-";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">条件に合う老人ホームが見つかるイラスト</title>
+  <desc id="desc">相談員と家族が条件に合う施設を確認している様子</desc>
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8f3d"/>
+      <stop offset="1" stop-color="#ffbd45"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#77d66d"/>
+      <stop offset="1" stop-color="#43c7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#233444" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <rect width="760" height="420" rx="34" fill="#fffdf7"/>
+  <circle cx="102" cy="84" r="60" fill="#ffdb73" opacity=".38"/>
+  <circle cx="670" cy="72" r="72" fill="#d8f6ff" opacity=".72"/>
+  <circle cx="630" cy="348" r="92" fill="#ebffe9" opacity=".78"/>
+
+  <g filter="url(#shadow)">
+    <rect x="396" y="50" width="284" height="302" rx="24" fill="#fff"/>
+    <rect x="422" y="82" width="232" height="64" rx="16" fill="#fff8ea" stroke="#ffd9a8" stroke-width="4"/>
+    <rect x="422" y="172" width="232" height="64" rx="16" fill="#f4fffb" stroke="#bcefd6" stroke-width="4"/>
+    <rect x="422" y="262" width="232" height="64" rx="16" fill="#f2fbff" stroke="#bceeff" stroke-width="4"/>
+
+    <g transform="translate(442 98)">
+      <rect x="0" y="25" width="58" height="28" rx="4" fill="#f28a3a"/>
+      <path d="M-6 25 29 0l35 25Z" fill="#ffb23f"/>
+      <rect x="14" y="34" width="11" height="19" rx="2" fill="#fff8ea"/>
+      <rect x="35" y="34" width="11" height="13" rx="2" fill="#fff8ea"/>
+      <circle cx="170" cy="28" r="18" fill="url(#orange)"/>
+      <path d="m162 27 7 7 14-17" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(442 188)">
+      <rect x="0" y="22" width="58" height="31" rx="5" fill="#55c98c"/>
+      <path d="M-7 22 29 0l36 22Z" fill="#77d66d"/>
+      <rect x="13" y="32" width="12" height="21" rx="2" fill="#f4fffb"/>
+      <rect x="35" y="32" width="11" height="13" rx="2" fill="#f4fffb"/>
+      <circle cx="170" cy="28" r="18" fill="url(#green)"/>
+      <path d="m162 27 7 7 14-17" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(442 278)">
+      <rect x="0" y="24" width="58" height="29" rx="5" fill="#43bce6"/>
+      <path d="M-7 24 29 0l36 24Z" fill="#8edbf0"/>
+      <rect x="13" y="33" width="12" height="20" rx="2" fill="#f2fbff"/>
+      <rect x="35" y="33" width="11" height="13" rx="2" fill="#f2fbff"/>
+      <circle cx="170" cy="28" r="18" fill="#c9d4df"/>
+      <path d="M158 28h24" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="214" width="284" height="120" rx="24" fill="#fff" stroke="#ffe0b5" stroke-width="4"/>
+    <text x="116" y="258" fill="#26333d" font-family="sans-serif" font-size="24" font-weight="800">希望条件</text>
+    <g transform="translate(116 282)">
+      <rect width="68" height="30" rx="15" fill="#fff2dc"/>
+      <text x="34" y="21" text-anchor="middle" fill="#f07822" font-family="sans-serif" font-size="15" font-weight="800">費用</text>
+      <rect x="82" width="84" height="30" rx="15" fill="#ebffe9"/>
+      <text x="124" y="21" text-anchor="middle" fill="#2fa969" font-family="sans-serif" font-size="15" font-weight="800">エリア</text>
+      <rect x="180" width="86" height="30" rx="15" fill="#edf9ff"/>
+      <text x="223" y="21" text-anchor="middle" fill="#2ba9cf" font-family="sans-serif" font-size="15" font-weight="800">介護度</text>
+    </g>
+  </g>
+
+  <g transform="translate(78 78)">
+    <circle cx="82" cy="76" r="42" fill="#ffe2c8"/>
+    <path d="M45 76c4-43 34-67 75-48 26 12 35 32 29 62-29-18-67-18-104-14Z" fill="#73471f"/>
+    <path d="M58 83c24 18 58 17 88 1" fill="none" stroke="#5d3517" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="68" cy="82" r="5" fill="#392312"/>
+    <circle cx="101" cy="82" r="5" fill="#392312"/>
+    <path d="M75 104c12 10 25 10 37 0" fill="none" stroke="#392312" stroke-width="5" stroke-linecap="round"/>
+    <path d="M42 168c9-37 32-58 69-58h5c40 0 66 24 75 63l12 52H30Z" fill="#ffaf49"/>
+    <path d="M82 127h60v88H82Z" fill="#ffe2c8"/>
+    <path d="M73 146c23 19 53 19 77 0" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(230 104)">
+    <circle cx="60" cy="54" r="34" fill="#ffe2c8"/>
+    <path d="M28 53c1-37 30-56 62-40 23 11 27 32 20 55-22-16-49-20-82-15Z" fill="#8a6a52"/>
+    <circle cx="48" cy="58" r="4" fill="#392312"/>
+    <circle cx="75" cy="58" r="4" fill="#392312"/>
+    <path d="M51 77c9 8 20 8 29 0" fill="none" stroke="#392312" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15 136c8-34 28-52 59-52h4c34 0 55 20 62 55l10 62H4Z" fill="#77d66d"/>
+    <path d="M51 101h48v78H51Z" fill="#ffe2c8"/>
+    <path d="M42 115c18 17 42 17 61 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <path d="M328 210c42-4 78-24 104-58" fill="none" stroke="#ff8f3d" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 18"/>
+  <circle cx="366" cy="198" r="28" fill="url(#orange)"/>
+  <path d="m354 198 10 10 19-24" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

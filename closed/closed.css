@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  color: #22303a;
+  background: #f4fcff;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+}
+
+.notice {
+  width: 100%;
+  max-width: 560px;
+  padding: 48px 40px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e8edf2;
+  border-radius: 16px;
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+}
+
+h1 {
+  margin: 28px 0 20px;
+  font-size: 22px;
+}
+
+p {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.contact {
+  margin: 32px 0 0;
+  padding: 20px;
+  background: #effbff;
+  border-radius: 12px;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+.mail {
+  margin: 8px 0 0;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.operator {
+  margin: 28px 0 0;
+  font-size: 13px;
+  color: #64727f;
+}
+
+.operator a {
+  color: #1a7f99;
+}
+
+@media (max-width: 480px) {
+  .notice {
+    padding: 36px 20px;
+  }
+
+  h1 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .contact-title,
+  .mail,
+  .operator {
+    text-align: center;
+  }
+}

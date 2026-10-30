@@ -1,5 +1,7 @@
 [build]
-  publish = "."
+  # 2026-10-30 サービス停止中：お知らせページ（closed/）だけを公開している。
+  # LP本体（index.html ほか）はリポジトリに残してあり、戻すときは publish = "." に戻すだけ。
+  publish = "closed"
 
 [[redirects]]
   from = "http://www.kaigo-no-madoguchi.com/*"
